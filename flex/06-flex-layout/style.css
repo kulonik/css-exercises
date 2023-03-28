@@ -5,6 +5,40 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header ,
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background:  rgb(245, 243, 243);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+li {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(94, 89, 89);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
